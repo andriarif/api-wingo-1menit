@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
 
   const response = await fetch(
-    "https://didihub.com/api/main/lottery/rounds?page=1&count=20&type=3",
+    "https://didihub.com/api/main/lottery/round?page=1&count=20&type=3",
     {
       headers: {
         "Accept": "application/json, text/plain, */*",
